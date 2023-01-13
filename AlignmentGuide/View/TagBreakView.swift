@@ -70,7 +70,9 @@ struct TagBreakView: View {
                       return result
                   })
           }
-        }.border(Color.red)
+        }
+        .border(Color.gray)
+        .navigationTitle("Tag Break")
     }
 }
 
