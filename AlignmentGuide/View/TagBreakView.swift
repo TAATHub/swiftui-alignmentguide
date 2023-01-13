@@ -7,22 +7,6 @@
 
 import SwiftUI
 
-struct Tag: View {
-    let text: String
-    
-    init(_ text: String) {
-        self.text = text
-    }
-    
-    var body: some View {
-        Text(text)
-            .foregroundColor(Color(uiColor: .secondaryLabel))
-            .padding(8)
-            .background(Color(uiColor: .secondarySystemFill))
-            .cornerRadius(8)
-    }
-}
-
 struct TagBreakView: View {
     @State var tagList = ["#AAA", "#BBBBBBBBBB", "#CCCCC", "#DDDDDDDDDDDDDDD", "#EEEEEEEEEE"]
     
