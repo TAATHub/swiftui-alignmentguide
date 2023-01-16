@@ -12,6 +12,7 @@ struct ContentView: View {
         NavigationStack {
             List {
                 NavigationLink("Basic Sample", destination: { BasicSampleView() })
+                NavigationLink("Alignment Guide vs. Offset", destination: { AlignmentGuideVsOffsetView() })
                 NavigationLink("Tag Break", destination: { TagBreakView() })
             }
             .navigationTitle("AlignmentGuide")

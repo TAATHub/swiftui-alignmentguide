@@ -17,6 +17,7 @@
 		1DD57C4129718AAD0093FC7F /* BasicSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD57C4029718AAD0093FC7F /* BasicSampleView.swift */; };
 		1DD57C4329718AF80093FC7F /* TagBreakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD57C4229718AF80093FC7F /* TagBreakView.swift */; };
 		1DD57C45297191EA0093FC7F /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD57C44297191EA0093FC7F /* Tag.swift */; };
+		1DEF5CF529757A65002F9D1F /* AlignmentGuideVsOffsetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF5CF429757A65002F9D1F /* AlignmentGuideVsOffsetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		1DD57C4029718AAD0093FC7F /* BasicSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicSampleView.swift; sourceTree = "<group>"; };
 		1DD57C4229718AF80093FC7F /* TagBreakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagBreakView.swift; sourceTree = "<group>"; };
 		1DD57C44297191EA0093FC7F /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		1DEF5CF429757A65002F9D1F /* AlignmentGuideVsOffsetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuideVsOffsetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 				1DD57C4029718AAD0093FC7F /* BasicSampleView.swift */,
 				1DD57C4229718AF80093FC7F /* TagBreakView.swift */,
 				1DD57C44297191EA0093FC7F /* Tag.swift */,
+				1DEF5CF429757A65002F9D1F /* AlignmentGuideVsOffsetView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DEF5CF529757A65002F9D1F /* AlignmentGuideVsOffsetView.swift in Sources */,
 				1DD57C4129718AAD0093FC7F /* BasicSampleView.swift in Sources */,
 				1DD57C4329718AF80093FC7F /* TagBreakView.swift in Sources */,
 				1DD57C45297191EA0093FC7F /* Tag.swift in Sources */,
